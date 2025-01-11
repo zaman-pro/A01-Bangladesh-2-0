@@ -97,9 +97,10 @@ nav {
 }
 
 .pillars-card-container {
-  margin-top: 32px;
   display: flex;
+  justify-content: space-between;
   gap: 24px;
+  margin-top: 32px;
 }
 
 .pillars-card {
@@ -107,6 +108,7 @@ nav {
   border-radius: 16px;
   border: 1px solid #0e0e0e26;
   background: #fff;
+  flex: 1;
 }
 
 .pillars-card-title {
@@ -140,6 +142,7 @@ nav {
 
 .vision-card-container {
   display: flex;
+  justify-content: space-between;
   gap: 24px;
   margin: 32px 0;
 }
@@ -147,6 +150,7 @@ nav {
 .vision-card {
   padding: 24px;
   border-radius: 16px;
+  flex: 1;
 }
 
 .vision-card-title {
@@ -195,4 +199,39 @@ nav {
 
 #btnThree {
   background-color: #ffc239;
+}
+
+/* quote section style */
+.quote-container {
+  border-radius: 16px;
+  border: 1px solid #0e0e0e26;
+  background: #fff;
+  background-image: url(./assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  padding: 24px;
+}
+
+.quote-article {
+  color: #0e0e0ecc;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 24px;
+}
+
+.quote-title {
+  color: #0e0e0ecc;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 12px 0 4px;
+}
+
+.quote-description {
+  color: #0e0e0e99;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 24px;
 }
