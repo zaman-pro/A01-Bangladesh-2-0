@@ -26,7 +26,7 @@ main {
 main > section {
   margin-top: 80px;
 }
-/* nav style */
+/* navbar style */
 nav {
   max-width: 1600px;
   margin: 0 auto;
@@ -121,4 +121,78 @@ nav {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+}
+
+/* the vision of future section style */
+.vision-title {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.vision-description {
+  color: #0e0e0eb3;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 24px;
+}
+
+.vision-card-container {
+  display: flex;
+  gap: 24px;
+  margin: 32px 0;
+}
+
+.vision-card {
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.vision-card-title {
+  color: #0e0e0ecc;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 24px 0 12px 0;
+}
+
+.vision-card-description {
+  color: #0e0e0eb3;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+#cardOne {
+  background-color: #5490f533;
+}
+
+#cardTwo {
+  background-color: #c6e4d6;
+}
+
+#cardThree {
+  background-color: #f7ebcf;
+}
+
+.vision-card-btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 8px;
+}
+
+#btnOne {
+  background-color: #5490f5;
+}
+
+#btnTwo {
+  background-color: #09a15c;
+}
+
+#btnThree {
+  background-color: #ffc239;
 }
